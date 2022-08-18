@@ -1,0 +1,149 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Guglielmo Grillo
+    tagline: Physicist and CS enthusiast
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: cv@guglielmogrillo.com
+    phone: 
+    timezone: Italy / Rome
+    citizenship:
+    website: https://guglielmogrillo.com/ #do not add http://
+    linkedin: guglielmo-grillo
+    xing:
+    github: nerusSkyhigh
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@nerusskyhigh'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: # http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      - idiom: Italian
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Storytelling
+        link:
+
+      - item: Machine Learning
+        link:
+
+      - item: Cyber Security
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Hi, I'm a Master's physics student at Trento with a strong passion for computer science. This passion led me to choose a computational path both for my curricular classes (e.g. _Computational Physics_ (ay. 2021),  _Quantum computing_ (ay. 2021), _Intelligent optimization and machine learning_ (ay. 2019) ) and extracurricular (I took part in the 2021 edition of the _Cyberchallenge_; _Data Mining for Physicists_ (aa 2020) ). I'm one of the founding members of _Progetto Apollo_, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. My hobbies include skill-based videogames and parkour. Since 2019 I've been a tutor for the University of Trento (2019-2020 Calculus, 2021-today Laboratory of Physics).
+education:
+    - degree: MSc Physics
+      university: University of Trento
+      time: 2020 - Present
+      details: |
+        Statistical Mechanics path with a focus on computational methods.
+        Relevant classes:
+          - Advanced Computational Physics
+          - Quantum Computing and Quantum Machine Learning
+          - Laboratory of Advanced Eletronics
+    - degree: BSc in Physics
+      university: University of Trento
+      time: 2016 - 2020
+      details: |
+        Relevant classes:
+          - Informatics and Computational Physics
+          - Physics laboratory (statistics, analog and digital electronics, optic)
+          - Statistical Mechanics
+          - Quantum Mechanics, Structure of Matter, Nuclear and Subnuclear Physics
+          - Machine Learning and Intelligent Optimization
+experiences:
+    - role: Tutor
+      time: 2019 - Present
+      company: University of Trento
+      details: |
+        My job was to explain the lab experiences to the students in order to make sure they understood the underlying reasoning and the scientific approach.
+        I was assigned to the following courses:
+          - Mar 2022 - June 2022: Laboratory of Physics of Matlab (DIF), Introductory Physics Laboratory (DICAM)
+          - Set 2021 - Dec 2021: Introductory Physics Laboratory (DII)
+          - Set 2020 - Dec 2020: Mathematics and Statistics (A3C)
+          - Set 2019 - Jan 2020: Calculus I (DICAM), Quantitative methods for life-sciences (DIPSCO).
+
+    - role: Storyteller
+      time: 2017 - Present
+      company: Arditodesìo / University of Trento
+      details: |
+        I'm one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Some of our activities include research on a key topic or an interview with a Professor at UniTN in order to write narratives with the principles of storytelling. The narratives were then performed in the course of various editions of "Teatro della Meraviglia", EIT RAW Materials 2021,  "CO.SCIENZA Festival 2019", "Focus Days 2019" and "Fisicittà 2017".
+
+projects:
+    title: Projects
+    intro: >
+      It is possible to find other projects on Github.
+    assignments:
+      - title: Practical Deep Learning for Corders
+        link: "https://github.com/NerusSkyhigh/practicaldeeplearning"
+        tagline: "I'm currently taking fast.ai's course Practical Deep Learning for Corders."
+
+      - title: A Game of Life
+        link: "https://github.com/NerusSkyhigh/LoAE-code"
+        tagline: "The final project for the course Laboratory of Advanced Electronics."
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
+#
+#skills:
+#    title: Skills &amp; Proficiency
+#
+#    toolset:
+#      - name: Python & Django
+#        level: 98%
+#
+#      - name: Javascript & jQuery
+#        level: 98%
+#
+#      - name: Angular
+#        level: 98%
+#
+#      - name: HTML5 & CSS
+#        level: 95%
+#
+#      - name: Ruby on Rails
+#        level: 85%
+#
+#      - name: Sketch & Photoshop
+#        level: 60%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
