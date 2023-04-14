@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Guglielmo Grillo
-    tagline: Physicist and CS enthusiast
+    tagline: Physicist and Computer Science enthusiast
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -46,64 +46,88 @@ sidebar:
       - item: Physics
         link:
 
-      - item: Cyber Security
+      - item: Computer Science
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Hi, I'm a recently graduated Physicist (Master's degree) at Trento with a strong passion for computer science. This passion led me to choose a computational path both for my curricular classes (e.g. _Computational Physics_ (ay. 2021),  _Quantum computing_ (ay. 2021), _Intelligent optimization and machine learning_ (ay. 2019) ) and extracurricular (I took part in the 2021 edition of the _Cyberchallenge_; _Data Mining for Physicists_ (aa 2020) ). I'm one of the founding members of _Progetto Apollo_, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. My hobbies include skill-based videogames and parkour. Since 2019 I've been a tutor for the University of Trento (2019-2020 Calculus, 2021-today Laboratory of Physics).
+      <div style="text-align: justify">
+      I’m a recently graduated Physicist (Master’s degree) at Trento with a strong passion for computer science. This passion led me to choose a computational path both for my curricular and extracurricular classes. I’m one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Since 2019 I’ve been a tutor for the University of Trento. My hobbies include video games and parkour.
+      </div>
 education:
     - degree: MSc Physics
       university: University of Trento
-      time: 2020 - Present
+      time: Sep 2020 - March 2023
       details: |
-        Statistical Mechanics path with a focus on computational methods.
-        Relevant classes:
-          - Advanced Computational Physics
+        Statistical Mechanics path with a focus on computational methods.  
+        **Thesis title**: *Computational Models Of Astrocyte-Neuron Dynamics To Explain The Formation Of Working Memory*  
+        **Final grade**: 110/110  
+          
+        **Relevant courses**: 
           - Quantum Computing and Quantum Machine Learning
-          - Laboratory of Advanced Eletronics
+          - Advanced Computational Physics
+          - Experimental Methods
+          - Laboratory of Advanced Electronics (signal processing via FPGA)
+          - Multi-Scale Methods in Soft Matter Physics
+          - Statistical Mechanics and Statistical Field Theory.
     - degree: BSc in Physics
       university: University of Trento
-      time: 2016 - 2020
+      time: Sep 2016 - March 2020
       details: |
-        Relevant classes:
-          - Informatics and Computational Physics
-          - Physics laboratory (statistics, analog and digital electronics, optic)
-          - Statistical Mechanics
-          - Quantum Mechanics, Structure of Matter, Nuclear and Subnuclear Physics
-          - Machine Learning and Intelligent Optimization
+        **Thesis title**: *Emergent features: from renormalization group to artificial intelligence*  
+        **Relevant courses**:  
+          - Scientific Computing (fka Computer Science), Introduction to Machine Learning (fka Advanced Algorithms)
+          - Linear Algebra I, Analysis I, II, III, and Complex Analysis, Complementary Mathematics for Quantum Mechanics
+          - Physics I, II, and III, Analytical Mechanics, Quantum Mechanics
+          - Physics Laboratory I (measures), II (analogue electronics and optics), and III (digital electronics)
+          - Chemistry with Laboratory Sessions.
+    - degree: Other Courses
+      details: |
+        - **CyberChallenge.IT** (March-June 2021): during my master's degree, I took part in the *CyberChallenge.IT*, a course about cybersecurity held by the Cybersecurity National Lab in collaboration with the Department of Information Engineering and Computer Science.
+        - **Data Science for Physicist** (March-June 2020): after my bachelor's degree, I took part in the course *Data Science for Physicist* as a listener.
+        - **Emozionare con la Scienza**: during my bachelor's degree, I took part in a Scientific Storytelling course twice. This resulted in two 5-minute plays and the creation of the storytelling group *Progetto Apollo*.
 experiences:
     - role: Tutor
-      time: 2019 - Present
+      time: Sep 2019 - Dec 2022
       company: University of Trento
       details: |
         My job was to explain the lab experiences to the students in order to make sure they understood the underlying reasoning and the scientific approach.
         I was assigned to the following courses:
-          - Sep 2022 - today: Introductory Physics Laboratory (DII), Mathematical Basics for Cognitive Sciences (CIBIO), Mathematics and Statistics I (CIBIO)
+          - Sep 2022 - Dec 2022: Introductory Physics Laboratory (DII), Mathematical bases for Cognitive Sciences (CIMEC), Mathematics and Statistics I (CIBIO)
           - Mar 2022 - June 2022: Laboratory of Physics of Matlab (DIF), Introductory Physics Laboratory (DICAM)
           - Set 2021 - Dec 2021: Introductory Physics Laboratory (DII)
           - Set 2020 - Dec 2020: Mathematics and Statistics (A3C)
           - Set 2019 - Jan 2020: Calculus I (DICAM), Quantitative methods for life-sciences (DIPSCO).
 
     - role: Storyteller
-      time: 2017 - Present
+      time: 2017 - Oct 2022
       company: Arditodesìo / University of Trento
       details: |
-        I'm one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Some of our activities include research on a key topic or an interview with a Professor at UniTN in order to write narratives with the principles of storytelling. The narratives were then performed in the course of various editions of "Teatro della Meraviglia", EIT RAW Materials 2021,  "CO.SCIENZA Festival 2019", "Focus Days 2019" and "Fisicittà 2017".
+        I'm one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Some of our activities include research on a key topic or an interview with a Professor at the University of Trento to write narratives with the principles of storytelling. The narratives were then performed in the course of various editions of *Teatro della Meraviglia*, *EIT RAW Materials 2021*, *CO.SCIENZA Festival 2019*, *Focus Days 2019* and *Fisicittà 2017*. In 2022 we partnered with *Caltech* to write four narratives presented both in Trento and at *Caltech*.
 
 projects:
     title: Projects
-    intro: >
+    intro: 
       It is possible to find other projects on Github.
     assignments:
+      - title: Percolation - Theory and Applications
+        link: "https://github.com/NerusSkyhigh/multiscale-percolation"
+        tagline: "For the course "Multi-Scale Methods in Soft Matter Physics" I wrote a review that introduces the reader to the Bernoulli percolation model and its phase transition. The review also presents attempts to apply Bernoulli percolation to physical problems and a proof of concept for simulation based on the Monte-Carlo method."
+
+      - title: Machine Learning Phases of Matter
+        link: "https://github.com/NerusSkyhigh/Machine-Learning-Phases-of-Matter"
+        tagline: "This project aims to reobtain the results presented in "Machine learning phases of matter" (Juan Carrasquilla, Roger G. Melko) regarding the two-dimensional square Ising model. The authors show that a standard feed-forward neural network (FFNN) is a suitable tool to detect Ising's model phase transition."
+
+      - title: A Game of Life
+        link: "https://github.com/NerusSkyhigh/LoAE-code"
+        tagline: "Developed for the course "Laboratory of Advanced Electronics" including my final project that implements Conway's Game of Life on an FPGA and outputs the results using the VGA standard."
+
       - title: Practical Deep Learning for Corders
         link: "https://github.com/NerusSkyhigh/practicaldeeplearning"
         tagline: "I'm currently taking fast.ai's course Practical Deep Learning for Corders."
 
-      - title: A Game of Life
-        link: "https://github.com/NerusSkyhigh/LoAE-code"
-        tagline: "The final project for the course Laboratory of Advanced Electronics."
+      
 
 #publications:
 #    title: Publications
