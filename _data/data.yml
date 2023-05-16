@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: # http://www.africau.edu/images/default/sample.pdf
+    pdf: https://github.com/NerusSkyhigh/online-cv/blob/main/assets/CV_GRILLO_Guglielmo.pdf
 
     languages:
       - idiom: Italian
@@ -53,14 +53,14 @@ career-profile:
     title: Career Profile
     summary: |
       <div style="text-align: justify">
-      I’m a recently graduated Physicist (Master’s degree) at Trento with a strong passion for computer science. This passion led me to choose a computational path both for my curricular and extracurricular classes. I’m one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Since 2019 I’ve been a tutor for the University of Trento. My hobbies include video games and parkour.
+      I’m a recently graduated Physicist (Master’s degree, University of Trento) with a strong passion for computer science. This passion led me to choose a computational path both for my curricular and extracurricular classes and to work on personal projects in my free time. I’m also one of the founding members of Progetto Apollo, a scientific divulgation group operating at the University of Trento in collaboration with Arditodesìo. Since 2019 I’ve been a tutor for the University of Trento. My hobbies include video games and parkour.
       </div>
 education:
     - degree: MSc Physics
       university: University of Trento
       time: Sep 2020 - March 2023
       details: |
-        Statistical Mechanics path with a focus on computational methods.  
+        Statistical Biophysics path with a focus on computational methods.  
         **Thesis title**: *Computational Models Of Astrocyte-Neuron Dynamics To Explain The Formation Of Working Memory*  
         **Final grade**: 110/110  
           
